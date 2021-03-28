@@ -1,38 +1,37 @@
-//È¯°æ ¼³Á¤ ÇØÁÖ¸é ÄÚµùÇÏ±â ÁÁÀº ¸Ş¸ğÀå
-class Hello{
+public class Hello{
 	public static void main ( String [] args){
  
 	
-		System.out.print("ÀÚ¹Ù"); //ÁÙ³Ñ±è ¹ÌÁ¦°ø
-		System.out.print("ÇÁ·Î±×·¡¹Ö");
+		System.out.print("ìë°”"); //ì¤„ë„˜ê¹€ ë¯¸ì œê³µ
+		System.out.print("í”„ë¡œê·¸ë˜ë°");
 	
 		
     
-		System.out.println("ÀÚ¹Ù"); //ÁÙ³Ñ±è Á¦°ø
-		System.out.println("ÇÁ·Î±×·¡¹Ö"); 
+		System.out.println("ìë°”"); //ì¤„ë„˜ê¹€ ì œê³µ
+		System.out.println("í”„ë¡œê·¸ë˜ë°"); 
 
 		System.out.println(3+5);
 		System.out.println("3+5="+3+5);
 		System.out.println("3+5="+(3+5));
-		System.out.println("¾È³ç"+"ÇÏ¼¼¿ä");
+		System.out.println("ì•ˆë…•"+"í•˜ì„¸ìš”");
 		
 		
 		System.out.printf("3 + 5 = %10d\n" , 3+5);
-		//format specifier(¼­½Ä ÁöÁ¤ÀÚ) %d %s %f %c etc..  //»ç¿ë ½Ã printf »ç¿ë
+		//format specifier(ì„œì‹ ì§€ì •ì) %d %s %f %c etc..  //ì‚¬ìš© ì‹œ printf ì‚¬ìš©
 		System.out.printf("/'3 - 5 = %5d\n", 3-5);
 		System.out.printf("3  5 = %10d\n", 35);
 		System.out.format("3  5 = %d\n", 35);
-	// format, printf ¼­½ÄÁöÁ¤ °¡´É
+	// format, printf ì„œì‹ì§€ì • ê°€ëŠ¥
 		 System.out.printf("Hello, World!");
 		 System.out.print("\n");
-		 System.out.printf("ÀÌÈ£Ã¶");
-		//°´Ã¼ ÁöÇâ ¾ğ¾îÀÌ±â ¶§¹®¿¡ ¸ğ´ÏÅÍÇÑÅ× Ãâ·ÂÇØ´Ş¶ó°í ºÎÅ¹ÇØ¾ßÇÑ´Ù.
-		//¸ğ´ÏÅÍ  Ç¥ÁØÃâ·ÂÀåÄ¡ == System.out
+		 System.out.printf("ì´í˜¸ì² ");
+		//ê°ì²´ ì§€í–¥ ì–¸ì–´ì´ê¸° ë•Œë¬¸ì— ëª¨ë‹ˆí„°í•œí…Œ ì¶œë ¥í•´ë‹¬ë¼ê³  ë¶€íƒí•´ì•¼í•œë‹¤.
+		//ëª¨ë‹ˆí„°  í‘œì¤€ì¶œë ¥ì¥ì¹˜ == System.out
 	
 	}
 }
 
-	//ÄÜ¼ÖÃ¢ ¸í·É¾î
-	//ÄÄÆÄÀÏ  javac ÄÄÆÄÀÏÇÒ ÆÄÀÏ¸í.java
-	//ÇÏ¸é Å¬·¡½º ÆÄÀÏ »ı¼º
-	//class ÆÄÀÏ ½ÇÇà  java class ÆÄÀÏ¸í¸¸ ÀÔ·Â
+	//ì½˜ì†”ì°½ ëª…ë ¹ì–´
+	//ì»´íŒŒì¼  javac ì»´íŒŒì¼í•  íŒŒì¼ëª….java
+	//í•˜ë©´ í´ë˜ìŠ¤ íŒŒì¼ ìƒì„±
+	//class íŒŒì¼ ì‹¤í–‰  java class íŒŒì¼ëª…ë§Œ ì…ë ¥
